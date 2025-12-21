@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>胡晓东 | Resume</title>
+    <style>
+      body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Noto Sans","PingFang SC","Hiragino Sans","Noto Sans JP",sans-serif;
+             margin: 0; background: #fff; color: #111; }
+      .wrap { max-width: 860px; margin: 0 auto; padding: 32px 18px 56px; }
+      h1 { font-size: 28px; margin: 0 0 6px; }
+      .sub { color: #444; margin: 0 0 18px; }
+      .btns a { display: inline-block; margin: 8px 10px 0 0; padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; text-decoration: none; color: #111; }
+      .btns a:hover { background: #f6f6f6; }
+      h2 { font-size: 16px; margin: 26px 0 10px; padding-top: 14px; border-top: 1px solid #eee; }
+      ul { margin: 8px 0 0 18px; }
+      li { margin: 6px 0; line-height: 1.55; }
+      .muted { color: #666; font-size: 13px; }
+      .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border: 1px solid #eee; border-radius: 999px; margin-right: 6px; color: #333;}
+      footer { margin-top: 28px; color: #777; font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>胡晓东</h1>
+      <p class="sub">Software Engineer · Tokyo</p>
+
+      <div class="btns">
+        <!-- 把 # 换成你的链接 -->
+        <a href="#" target="_blank" rel="noreferrer">Download PDF</a>
+        <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+
+      <h2>Summary</h2>
+      <ul>
+        <li>前端/后端都能做：React/Next.js + Django/DRF + PostgreSQL</li>
+        <li>关注性能、可维护性、工程化流程（CI、review、release 风险管理）</li>
+        <li class="muted">（这里先写 3~5 条最强的卖点，后面再慢慢补全）</li>
+      </ul>
+
+      <h2>Experience</h2>
+      <div>
+        <div class="muted"><span class="tag">2025–Now</span> ExaWizards（例）</div>
+        <ul>
+          <li>做了什么（量化结果：xx% / xx ms / xx 成本）</li>
+          <li>解决了什么困难问题（例如：DB/性能/CI/上线风险）</li>
+        </ul>
+      </div>
+
+      <h2>Skills</h2>
+      <ul>
+        <li>Frontend: React, Next.js, TypeScript</li>
+        <li>Backend: Python, Django, DRF</li>
+        <li>DB/Infra: PostgreSQL, AWS, Docker, CI/CD</li>
+      </ul>
+
+      <footer>
+        © <span id="y"></span> Xiaodong Hu
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
